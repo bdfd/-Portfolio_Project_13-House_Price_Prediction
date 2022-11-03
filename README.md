@@ -1,65 +1,52 @@
-# 3.3-DS_Project_Template
-
-Descritpion Template
-Person Side Project Portfolio. Also included a few resources on side that I found helpful.
-
-Common Tag: data-science, python, data-visualization, sql, data-analytics, excel
-
-# <a href="https://github.com/bdfd"><img height=40 src="https://cdn.jsdelivr.net/gh/bdfd/Personal_Image_Repo/4.Stamp/BDFD_Stamp.png" alt="GitHub Followers" /></a>$(Project_Name{Github})[![View My Profile]
+# <a href="https://github.com/bdfd"><img height=40 src="https://cdn.jsdelivr.net/gh/bdfd/Personal_Image_Repo/4.Stamp/BDFD_Stamp.png" alt="GitHub Followers" /></a>Social Network Ads Purchase
 
 <a href="https://github.com/bdfd"><img src="https://img.shields.io/github/followers/bdfd?label=Follow%20Me&logo=github" alt="GitHub Followers" /></a>
-![ViewCount](<https://views.whatilearened.today/views/github/$(github_user)/$(repo_address).svg?cache=remove>)
-![GitHub top language](<https://img.shields.io/github/languages/top/$(github_user)/$(repo_address)?style=flat>)
-![GitHub language count](<https://img.shields.io/github/languages/count/$(github_user)/$(repo_address)?style=flat>)
+![ViewCount](https://views.whatilearened.today/views/github/bdfd/Project_03-Social_Network_Ads.svg?cache=remove)
+![GitHub top language](https://img.shields.io/github/languages/top/bdfd/Project_03-Social_Network_Ads?style=flat)
+![GitHub language count](https://img.shields.io/github/languages/count/bdfd/Project_03-Social_Network_Ads?style=flat)
 <img height=20 src="https://cdn.jsdelivr.net/gh/bdfd/Personal_Image_Repo/7.Color-Icon/Status/Finish.svg" alt="bdfd" />
-<img height=20 src="https://cdn.jsdelivr.net/gh/bdfd/Personal_Image_Repo/7.Color-Icon/Status/On_Progress.svg" alt="bdfd" />
 
 ## Applied Learning Project
 
-<img height="27" src="https://img.shields.io/badge/Prediction using Supervised ML -Level  Beginner-green.svg?&style=for-the-badge&logo=TheSparksFoundation&logoColor=red" />  
-<img height="27" src="https://img.shields.io/badge/Prediction using Supervised ML -Level  Intermediate-blue.svg?&style=for-the-badge&logo=TheSparksFoundation&logoColor=red" />  
-<img height="27" src="https://img.shields.io/badge/Prediction using Supervised ML -Level  Advanced-red.svg?&style=for-the-badge&logo=TheSparksFoundation&logoColor=red" />
+<img height="27" src="https://img.shields.io/badge/Prediction using Supervised ML -Level  Intermediate-blue.svg?&style=for-the-badge&logo=TheSparksFoundation&logoColor=red" />
 
 **Tools:** Colab/Jupyter Notebook, GitHub
 
-**Algorithm Category:** Regression, Classification
+**Algorithm Category:** Univariate Classification
 
-**Purpose:** Data Cleaning, Apply Algorithm
+**Purpose:** Data Cleaning, Apply Algorithm, Apply GridSearchCV
 
-**Algorithm:** Univariate Linear Regression, Multivariate Linear Regression
+**Algorithm:** Logistic Regression, Support Vector Machine Classification, Decison Tree Classification, K Nearest Neighbors Classification
 
-**Libraries:** Pandas, NumPy
+**Libraries:** Pandas, NumPy, Scikit-Learn, Matplotlib, Seaborn
 
-**Projects:** ABC Project Name
+**Projects:** Social Network Ads Purchase
 
 **Problem Description**  
-Predict the porfit of startup compnay with folloing fileds
+Predict the user if they willing to puchase from the social network ads.
 
 **Problem Task**  
-Predict the porfit of startup compnay with folloing fileds
+Target Cluster Datasets is about a determine the social media ad purchase based on following fields.
 
 **Problem Variables**  
 There are two tables could be merged by ID
 
-| Field           | Description                                  | Unit      | dtype               | Comments   |
-| --------------- | -------------------------------------------- | --------- | ------------------- | ---------- |
-| Table 1         | application_record.csv                       | -----     | Constant            | ---------- |
-| R&D             | Spend on Research and Development            | US Dollar | Binary Category     | ---------- |
-| Aministration   | Spend on administration events or activities | US Dollar | Non Binary Category | ---------- |
-| Marketing Spend | Spend on marketing and advertistment         | US Dollar | Constant            | ---------- |
-| State           | Company Location                             | state     | Continous           | ---------- |
-| Profit          | Company earning by spending throughtout year | US Dollar | --------            | ---------- |
+| Field           | Description                            | Unit      | dtype           | Comments        |
+| --------------- | -------------------------------------- | --------- | --------------- | --------------- |
+| Table 1         | Social_Network_Ads.csv                 |           |                 |                 |
+| User ID         | Each user have own identifier          | Number    | Continous       |                 |
+| Gender          | Gender                                 |           | Binary Category |                 |
+| Age             | Age                                    |           | Continous       |                 |
+| EstimatedSalary | Salary earned by estimation            | US Dollar | Continous       |                 |
+| Purchased       | User social media ads purchsed history |           | Binary Category | Target Variable |
 
-**Reference:**
-Resource:<a href="https://www.kaggle.com/datasets/rikdifos/credit-card-approval-prediction/code?datasetId=426827&sortBy=voteCount"><Resource Name-Kaggle> Dataset</a>  
-Dateset:<a href="https://raw.githubusercontent.com/bdfd/Portfolio_Project_10-Salary_Prediction/main/dataset/Salary.csv">Original Dataset.csv</a>  
-Dateset:<a href="https://raw.githubusercontent.com/bdfd/Portfolio_Project_10-Salary_Prediction/main/dataset/Salary.csv">Processed Dataset.csv</a>  
-Train Processed Dataset:<a href="https://raw.githubusercontent.com/bdfd/Portfolio_Project_10-Salary_Prediction/main/display%20demo/train_x.csv">Train_X.csv</a>,
-<a href="https://raw.githubusercontent.com/bdfd/Portfolio_Project_10-Salary_Prediction/main/display%20demo/train_y.csv">Train_y.csv</a>  
-Test Processed Dataset:<a href="https://raw.githubusercontent.com/bdfd/Portfolio_Project_10-Salary_Prediction/main/display%20demo/test_x.csv">Test_X.csv</a>,
-<a href="https://raw.githubusercontent.com/bdfd/Portfolio_Project_10-Salary_Prediction/main/display%20demo/test_y.csv">Test_y.csv</a>  
-Demo:<a href="https://github.com/bdfd/Portfolio_Project_10-Salary_Prediction/blob/main/Salary_Prediction.ipynb">Jupyter Notebook/Colab Link</a>  
-Visualization:<a href="https://github.com/bdfd/Section6.Project04_Customer_Segmentation/blob/main/display%20demo/Clustering_Bivariate.png">Train Result</a>,<a href="https://github.com/bdfd/Portfolio_Project_10-Salary_Prediction/blob/main/display%20demo/test%20result.png">Test Result</a>
+**Reference:**  
+Dateset:<a href="https://raw.githubusercontent.com/bdfd/Project_03-Social_Network_Ads/main/dataset/Social_Network_Ads.csv">Original Dataset.csv</a>  
+Train Processed Dataset:<a href="https://raw.githubusercontent.com/bdfd/Project_03-Social_Network_Ads/main/display%20demo/train_x.csv">Train_X.csv</a>,
+<a href="https://raw.githubusercontent.com/bdfd/Project_03-Social_Network_Ads/main/display%20demo/train_y.csv">Train_y.csv</a>  
+Test Processed Dataset:<a href="https://raw.githubusercontent.com/bdfd/Project_03-Social_Network_Ads/main/display%20demo/test_x.csv">Test_X.csv</a>,
+<a href="https://raw.githubusercontent.com/bdfd/Project_03-Social_Network_Ads/main/display%20demo/test_y.csv">Test_y.csv</a>  
+Demo:<a href="https://github.com/bdfd/Project_03-Social_Network_Ads/blob/main/Social_Network_Ad.ipynb">Jupyter Notebook/Colab Link</a>  
 <br>
 
 <div align="center">
